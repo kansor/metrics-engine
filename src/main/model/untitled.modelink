@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelink threeWay="true" forceExeedL="false" forceExeedM="false" forceExeedR="false">
+  <model path="\pwrtool\src\main\model\acmeair2.microservicesarchitecture" position="LEFT" />
+  <model path="\pwrtool\src\main\model\weaving.mqr" position="MIDDLE" />
+  <model path="\pwrtool\src\main\model\qmevaluated.qualitymetamodel" position="RIGHT" />
+</modelink>
+

@@ -1,0 +1,3 @@
+-- need https://www.npmjs.com/package/complexity-report installed and avaible in system's path
+-- in / resources folder include in build path weavingmodel.jar
+-- include in build path user lib --svn/code/userlib

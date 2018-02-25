@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ASCII"?>
+<QM:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:QM="http://www.univaq.disim.it/mde/qualitymm" name="Quality Model for MSA">
+  <metricProviders name="NosCalculator" description="this metric provider compute the number of services in the dsl, returns integer"/>
+  <metricProviders name="NocCalculator" description="this metric provider will compute the number of cluster"/>
+  <metricProviders name="NodCalculator"/>
+  <metricProviders name="CohesionCalculator" description="metric provider for the computation of cohesion"/>
+  <metricProviders name="CouplingCalculator" description="this metric provider will compute coupling for each service"/>
+  <metricProviders name="CyclomaticComplexityCalculator"/>
+  <metricProviders name="DevForServCalculator" description="this compute developer for all service"/>
+  <metricProviders name="CommitForServCalculator" description="this will return the numbers of the total commit for service"/>
+  <metricProviders name="IsStatefulCalculator" description="this will compute the isstateful check"/>
+  <metricProviders name="ComplexityCalculator" description="internal complexity of a service"/>
+  <metricProviders name="CommitForSystem"/>
+  <metricProviders name="SystemCouplingCalculator" description="compute system coupling"/>
+  <metricProviders name="SystemComplexityCalculator" description="compute the complexity"/>
+  <metricProviders name="SystemCohesionCalculator"/>
+  <qualityTypes xsi:type="QM:EnumerationMetric" varName="ComplexityType" val="//@qualityValues.14" value="//@qualityTypes.0/@set.0">
+    <set name="HIGH"/>
+    <set name="LOW"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:EnumerationMetric" varName="CouplingType" val="//@qualityValues.16" value="//@qualityTypes.1/@set.0">
+    <set name="HIGH"/>
+    <set name="LOW"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:EnumerationMetric" varName="MaintainabilityType" val="//@qualityValues.17" value="//@qualityTypes.2/@set.1">
+    <set name="HIGH"/>
+    <set name="LOW"/>
+    <set name="MEDIUM"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:EnumerationMetric" varName="CohesionType" val="//@qualityValues.15" value="//@qualityTypes.3/@set.1">
+    <set name="HIGH"/>
+    <set name="LOW"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:IntegerValueType" varName="nos" val="//@qualityValues.0" value="5"/>
+  <qualityTypes xsi:type="QM:IntegerValueType" val="//@qualityValues.1" value="0"/>
+  <qualityTypes xsi:type="QM:IntegerValueType" val="//@qualityValues.2" value="8"/>
+  <qualityTypes xsi:type="QM:ListValue" val="//@qualityValues.3">
+    <elements xsi:type="QM:IntegerValueType" value="8"/>
+    <elements xsi:type="QM:IntegerValueType" value="4"/>
+    <elements xsi:type="QM:IntegerValueType" value="4"/>
+    <elements xsi:type="QM:IntegerValueType" value="4"/>
+    <elements xsi:type="QM:IntegerValueType" value="2"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:ListValue" val="//@qualityValues.4">
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="7"/>
+    <elements xsi:type="QM:IntegerValueType" value="4"/>
+    <elements xsi:type="QM:IntegerValueType" value="3"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:ListValue">
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="4"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:ListValue" val="//@qualityValues.6">
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:ListValue" val="//@qualityValues.7">
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="1"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+    <elements xsi:type="QM:IntegerValueType" value="0"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:ListValue" val="//@qualityValues.8">
+    <elements xsi:type="QM:BooleanValueType" value="false"/>
+    <elements xsi:type="QM:BooleanValueType" value="false"/>
+    <elements xsi:type="QM:BooleanValueType" value="false"/>
+    <elements xsi:type="QM:BooleanValueType" value="false"/>
+    <elements xsi:type="QM:BooleanValueType" value="false"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:ListValue" val="//@qualityValues.9">
+    <elements xsi:type="QM:IntegerValueType" value="8"/>
+    <elements xsi:type="QM:IntegerValueType" value="11"/>
+    <elements xsi:type="QM:IntegerValueType" value="8"/>
+    <elements xsi:type="QM:IntegerValueType" value="7"/>
+    <elements xsi:type="QM:IntegerValueType" value="2"/>
+  </qualityTypes>
+  <qualityTypes xsi:type="QM:IntegerValueType" val="//@qualityValues.10" value="83"/>
+  <qualityTypes xsi:type="QM:RealValueType" val="//@qualityValues.11" value="1.0"/>
+  <qualityTypes xsi:type="QM:RealValueType" val="//@qualityValues.12" value="1.0"/>
+  <qualityTypes xsi:type="QM:RealValueType" val="//@qualityValues.13" value="7.0"/>
+  <qualityAttributes varName="Maintainability" value="//@qualityValues.17"/>
+  <qualityAttributes varName="Coupling" value="//@qualityValues.16"/>
+  <qualityAttributes varName="Cohesion" value="//@qualityValues.15"/>
+  <qualityAttributes varName="Complexity" value="//@qualityValues.14"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="nos" valueType="//@qualityTypes.4" description="the total number of service for the architecture" measuredBy="//@metricProviders.0"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="noc" valueType="//@qualityTypes.5" measuredBy="//@metricProviders.1"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="nod" valueType="//@qualityTypes.6" description="number of developer" measuredBy="//@metricProviders.2"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="Cohesion" valueType="//@qualityTypes.7" description="cohesion is the number of different interface per " measuredBy="//@metricProviders.3"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="Coupling" valueType="//@qualityTypes.8" measuredBy="//@metricProviders.4"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="CyclomaticComplexity" measuredBy="//@metricProviders.5"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="DevForServ " valueType="//@qualityTypes.10" description="this represent the value for dev for serv" measuredBy="//@metricProviders.6"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="CommitForServ" valueType="//@qualityTypes.11" description="this hold the value for commit for serv" measuredBy="//@metricProviders.7"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="IsStateful" valueType="//@qualityTypes.12" description="isstateful" measuredBy="//@metricProviders.8"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="Complexity" valueType="//@qualityTypes.13" description="this represent the internal complexity for each service" measuredBy="//@metricProviders.9"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="CommitForSystem" valueType="//@qualityTypes.14" description="this metric provider compute the total number of commit for this system" measuredBy="//@metricProviders.10"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="SystemCohesion" valueType="//@qualityTypes.15" measuredBy="//@metricProviders.13"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="SystemCouplingV" valueType="//@qualityTypes.16" measuredBy="//@metricProviders.11"/>
+  <qualityValues xsi:type="QM:SingleValue" varName="SystemComplexityV" valueType="//@qualityTypes.17" measuredBy="//@metricProviders.12"/>
+  <qualityValues xsi:type="QM:AggregatedValue" varName="SystemComplexityAV" valueType="//@qualityTypes.0">
+    <calculatedBy name="SystemComplexityOP" aggregatedValues="//@qualityValues.13" body="if(self.calculatedBy.aggregatedValues->at(1).oclAsType(SingleValue).valueType.oclAsType(RealValueType).value>5) then self.valueType.oclAsType(EnumerationMetric).set.oclAsSet()->select(n|n.name='HIGH') else  self.valueType.oclAsType(EnumerationMetric).set.oclAsSet()->select(n|n.name='LOW') endif"/>
+  </qualityValues>
+  <qualityValues xsi:type="QM:AggregatedValue" varName="SystemCohesionAV" valueType="//@qualityTypes.3">
+    <calculatedBy name="SystemCohesionOP" aggregatedValues="//@qualityValues.11" body="if(self.calculatedBy.aggregatedValues->first().oclAsType(SingleValue).valueType.oclAsType(RealValueType).value>0.6) then self.valueType.oclAsType(EnumerationMetric).set.oclAsSet()->select(n|n.name='LOW') else  self.valueType.oclAsType(EnumerationMetric).set.oclAsSet()->select(n|n.name='HIGH') endif"/>
+  </qualityValues>
+  <qualityValues xsi:type="QM:AggregatedValue" varName="SystemCouplingAV" valueType="//@qualityTypes.1">
+    <calculatedBy name="coupling operation" aggregatedValues="//@qualityValues.12" body="if(self.calculatedBy.aggregatedValues->first().oclAsType(SingleValue).valueType.oclAsType(RealValueType).value>0.67) then self.valueType.oclAsType(EnumerationMetric).set.oclAsSet()->select(n|n.name='HIGH') else  self.valueType.oclAsType(EnumerationMetric).set.oclAsSet()->select(n|n.name='LOW') endif"/>
+  </qualityValues>
+  <qualityValues xsi:type="QM:AggregatedValue" varName="Maintainability" valueType="//@qualityTypes.2">
+    <calculatedBy name="MaintainabilityOP" aggregatedValues="//@qualityValues.14 //@qualityValues.16 //@qualityValues.15" body="if(self.calculatedBy.aggregatedValues->select(n|n.varName='SystemComplexityAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('LOW') and self.calculatedBy.aggregatedValues->select(n|n.varName='SystemCohesioAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('HIGH') and self.calculatedBy.aggregatedValues->select(n|n.varName='SystemCouplingAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('LOW')) or (self.calculatedBy.aggregatedValues->select(n|n.varName='SystemComplexityAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('LOW') and self.calculatedBy.aggregatedValues->select(n|n.varName='SystemCohesioAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('HIGH')) or (self.calculatedBy.aggregatedValues->select(n|n.varName='SystemCouplingAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('LOW') and self.calculatedBy.aggregatedValues->select(n|n.varName='SystemComplexityAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('LOW') ) or (self.calculatedBy.aggregatedValues->select(n|n.varName='SystemCouplingAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('LOW') and self.calculatedBy.aggregatedValues->select(n|n.varName='SystemCohesionAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('HIGH') ) then self.valueType.oclAsType(EnumerationMetric).set.oclAsSet()->select(n|n.name='HIGH') else if(self.calculatedBy.aggregatedValues->select(n|n.varName='SystemCouplingAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('LOW') or self.calculatedBy.aggregatedValues->select(n|n.varName='SystemCohesionAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('HIGH') or  self.calculatedBy.aggregatedValues->select(n|n.varName='SystemComplexityAV').valueType.oclAsType(EnumerationMetric).value.oclAsType(EnumerationItem)->first().name.equalsIgnoreCase('LOW')) then self.valueType.oclAsType(EnumerationMetric).set.oclAsSet()->select(n|n.name='MEDIUM') else self.valueType.oclAsType(EnumerationMetric).set.oclAsSet()->select(n|n.name='LOW') endif endif"/>
+  </qualityValues>
+</QM:QualityModel>

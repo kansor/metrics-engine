@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mqr:msaQualityRelationships xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:QM="http://www.univaq.disim.it/mde/qualitymm" xmlns:mqr="http://it.univaq.thesis.mqr" xmlns:msa="http://it.univaq.thesis.msa.arch" mqrName="weaving model instance">
+  <Contain mqrName="nos">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.4"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="noc">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.5"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="nod">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.6"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="Cohesion">
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.0"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.7/@elements.0"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.1"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.7/@elements.1"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.2"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.7/@elements.2"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.3"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.7/@elements.3"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.4"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.7/@elements.4"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="Coupling">
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.0"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.8/@elements.0"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.1"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.8/@elements.1"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.2"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.8/@elements.2"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.3"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.8/@elements.3"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.4"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.8/@elements.4"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="CyclomaticComplexity">
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.0"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.9/@elements.0"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.1"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.9/@elements.1"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.2"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.9/@elements.2"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.3"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.9/@elements.3"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.4"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.9/@elements.4"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="DevForServ ">
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.0"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.10/@elements.0"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.1"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.10/@elements.1"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.2"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.10/@elements.2"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.3"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.10/@elements.3"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.4"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.10/@elements.4"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="CommitForServ">
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.0"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.11/@elements.0"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.1"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.11/@elements.1"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.2"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.11/@elements.2"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.3"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.11/@elements.3"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.4"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.11/@elements.4"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="IsStateful">
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.0"/>
+      <qualityElement xsi:type="QM:BooleanValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.12/@elements.0"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.1"/>
+      <qualityElement xsi:type="QM:BooleanValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.12/@elements.1"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.2"/>
+      <qualityElement xsi:type="QM:BooleanValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.12/@elements.2"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.3"/>
+      <qualityElement xsi:type="QM:BooleanValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.12/@elements.3"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.4"/>
+      <qualityElement xsi:type="QM:BooleanValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.12/@elements.4"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="Complexity">
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.0"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.13/@elements.0"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.1"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.13/@elements.1"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.2"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.13/@elements.2"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.3"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.13/@elements.3"/>
+    </ReferTo>
+    <ReferTo>
+      <msaElement xsi:type="msa:MicroService" href="src/main/model/acmeair2.microservicesarchitecture#//@composedBy.4"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.13/@elements.4"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="CommitForSystem">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:IntegerValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.14"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="SystemCohesion">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:RealValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.15"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="SystemCouplingV">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:RealValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.16"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="SystemComplexityV">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:RealValueType" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.17"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="SystemComplexityAV">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:EnumerationMetric" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.0"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="SystemCohesionAV">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:EnumerationMetric" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.3"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="SystemCouplingAV">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:EnumerationMetric" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.1"/>
+    </ReferTo>
+  </Contain>
+  <Contain mqrName="Maintainability">
+    <ReferTo>
+      <msaElement xsi:type="msa:Product" href="src/main/model/acmeair2.microservicesarchitecture#/"/>
+      <qualityElement xsi:type="QM:EnumerationMetric" href="src/main/model/qmevaluated.qualitymetamodel#//@qualityTypes.2"/>
+    </ReferTo>
+  </Contain>
+</mqr:msaQualityRelationships>

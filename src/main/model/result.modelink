@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><modelink forceExeedL="false" forceExeedM="false" forceExeedR="false" threeWay="true"><model path="src/main/model/acmeair2.microservicesarchitecture" position="LEFT"/><model path="src/main/model/weaving.mqr" position="CENTER"/><model path="src/main/model/qmevaluated.qualitymetamodel" position="RIGHT"/></modelink>

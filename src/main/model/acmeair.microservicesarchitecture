@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<msa:Product xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:msa="http://it.univaq.thesis.msa.arch" name="AcmeAir">
+  <composedBy name="main" host="127.0.0.1">
+    <expose name="client api" endPoint="/main/acmeair" port="80"/>
+    <require name="MainRequireBooking"/>
+    <require name="MainRequireAuth"/>
+    <require name="MainRequireFlight"/>
+  </composedBy>
+  <composedBy name="flight" host="172.18.0.8">
+    <expose name="flight api" endPoint="/flight/acmeair-fs/rest/api" port="3796"/>
+    <require name="FlightRequireBooking"/>
+    <require name="FlightRequireCustomer"/>
+  </composedBy>
+  <composedBy name="booking" host="172.18.0.9">
+    <expose name="booking api" endPoint="/booking/acmeair-bs/rest/api" port="80"/>
+    <require name="BookingRequireCustomer"/>
+  </composedBy>
+  <composedBy name="auth " host="172.18.0.11">
+    <expose name="auth api login" endPoint="/auth/acmeair-as/rest/api/login" port="3976"/>
+    <expose name="logout" endPoint="logout"/>
+    <require name="AuthRequireCustomer"/>
+  </composedBy>
+  <composedBy name="customer" host="172.18.0.7">
+    <expose name="customer api" endPoint="/customer/acmeair-cs/rest/api" port="3976"/>
+    <require name="CustomerRequireAuth"/>
+  </composedBy>
+  <links name="main-flight" source="//@composedBy.0/@require.2" target="//@composedBy.1/@expose.0"/>
+  <links name="main-booking" source="//@composedBy.0/@require.0" target="//@composedBy.2/@expose.0"/>
+  <links name="main-auth" target="//@composedBy.3/@expose.0"/>
+  <links name="flight-booking" source="//@composedBy.1/@require.0" target="//@composedBy.2/@expose.0"/>
+  <links name="flight-customer" source="//@composedBy.1/@require.1" target="//@composedBy.4/@expose.0"/>
+  <links name="booking-customer" source="//@composedBy.2/@require.0" target="//@composedBy.4/@expose.0"/>
+  <links name="auth-customer" source="//@composedBy.3/@require.0" target="//@composedBy.4/@expose.0"/>
+  <links name="customer-auth" source="//@composedBy.4/@require.0" target="//@composedBy.3/@expose.0"/>
+</msa:Product>
