@@ -1,3 +1,3 @@
 -- need https://www.npmjs.com/package/complexity-report installed and avaible in system's path
--- in  /src/main/resources/oclLibrary resources folder include in build path weavingmodel.jar
+-- include in build path weavingmodel.jar
 -- include in build path the user lib you can find inside /src/main/resources/oclLibrary
